@@ -7,4 +7,5 @@ git switch update_logo
 git commit -a -m "Vanilla create-react-up with updated logo and link"
 gh pr create -B master
 gh pr merge
+git add .
 git commit -a -m "List commands used to create repo"
